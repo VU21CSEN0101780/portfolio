@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #495057;
+    }
+
+    nav {
+      background-color: #343a40;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+    }
+
+    header {
+      background: url('https://i.pinimg.com/736x/39/cd/9e/39cd9eb350e49d44039d51a1e8b8938d.jpg') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      margin-top: -30px;
+      position: relative;
+      z-index: 1;
+    }
+
+    h2 {
+      color: #007bff;
+    }
+
+    .skills {
+      margin-top: 30px;
+    }
+
+    .skill-bar {
+      margin-bottom: 20px;
+    }
+
+    .skill-name {
+      font-weight: bold;
+    }
+
+    .progress-bar {
+      width: 100%;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .progress {
+      height: 20px;
+      line-height: 20px;
+      font-size: 0.8em;
+      color: #fff;
+      text-align: center;
+      background-color: #007bff;
+      transition: width 0.5s;
+    }
+
+ 
+
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      background-color: #343a40;
+      color: #fff;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #007bff;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ced4da;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Sahithi Bathula</h1>
+    <p> student  | Designer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Sahithi, a dedicated and enthusiastic B.Tech graduate in Computer Science Engineering with a passion for technology and programming.I thrive in dynamic environments where I can leverage my problem-solving skills to overcome challenges and deliver high-quality results. My ability to effectively communicate and collaborate with cross-functional teams enables me to achieve project objectives efficiently while fostering a positive work environment.</p>
+  </section>
+
+ <section id="education">
+    <h2>education</h2>
+<p>B.Tech in Computer Science Engineering - GITAM <p/>
+</section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+
+    <div class="skill-bar">
+      <span class="skill-name">HTML5</span>
+      <div class="progress-bar">
+        <div class="progress" style="width: 80%;">80%</div>
+      </div>
+    </div>
+
+    <div class="skill-bar">
+      <span class="skill-name">CSS3</span>
+      <div class="progress-bar">
+        <div class="progress" style="width: 75%;">75%</div>
+      </div>
+    </div>
+
+<div class="skill-bar">
+      <span class="skill-name">java</span>
+      <div class="progress-bar">
+        <div class="progress" style="width: 70%;">70%</div>
+      </div>
+    </div>
+
+<div class="skill-bar">
+      <span class="skill-name">python</span>
+      <div class="progress-bar">
+        <div class="progress" style="width: 85%;">85%</div>
+      </div>
+    </div>
+
+<div class="skill-bar">
+      <span class="skill-name">c++</span>
+      <div class="progress-bar">
+        <div class="progress" style="width: 80%;">80%</div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 sahithi | designer</p>
+  </footer>
+
+</body>
+</html>
